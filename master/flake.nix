@@ -13,18 +13,16 @@
   inputs.src-crowncalc-master.repo  = "crowncalc";
   inputs.src-crowncalc-master.type  = "github";
   
-  inputs."noise".dir   = "nimpkgs/n/noise";
-  inputs."noise".owner = "riinr";
-  inputs."noise".ref   = "flake-pinning";
-  inputs."noise".repo  = "flake-nimble";
+  inputs."noise".owner = "nim-nix-pkgs";
+  inputs."noise".ref   = "master";
+  inputs."noise".repo  = "noise";
   inputs."noise".type  = "github";
   inputs."noise".inputs.nixpkgs.follows = "nixpkgs";
   inputs."noise".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."sdl2".dir   = "nimpkgs/s/sdl2";
-  inputs."sdl2".owner = "riinr";
-  inputs."sdl2".ref   = "flake-pinning";
-  inputs."sdl2".repo  = "flake-nimble";
+  inputs."sdl2".owner = "nim-nix-pkgs";
+  inputs."sdl2".ref   = "master";
+  inputs."sdl2".repo  = "sdl2";
   inputs."sdl2".type  = "github";
   inputs."sdl2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."sdl2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
