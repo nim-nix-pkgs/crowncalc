@@ -7,7 +7,11 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs."crowncalc-master".url = "path:./master";
+  inputs."crowncalc-master".dir   = "master";
+  inputs."crowncalc-master".owner = "nim-nix-pkgs";
+  inputs."crowncalc-master".ref   = "master";
+  inputs."crowncalc-master".repo  = "crowncalc";
+  inputs."crowncalc-master".type  = "github";
   inputs."crowncalc-master".inputs.nixpkgs.follows = "nixpkgs";
   inputs."crowncalc-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
