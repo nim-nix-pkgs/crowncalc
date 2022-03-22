@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-crowncalc-master.flake = false;
+  inputs.src-crowncalc-master.ref   = "refs/heads/master";
   inputs.src-crowncalc-master.owner = "RainbowAsteroids";
-  inputs.src-crowncalc-master.ref   = "master";
   inputs.src-crowncalc-master.repo  = "crowncalc";
   inputs.src-crowncalc-master.type  = "github";
   
