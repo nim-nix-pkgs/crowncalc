@@ -1,0 +1,183 @@
+{
+  "nodes": {
+    "crowncalc-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "noise": "noise",
+        "sdl2": "sdl2",
+        "src-crowncalc-master": "src-crowncalc-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647922099,
+        "narHash": "sha256-hilRCgT5cxa1Cw6cgTRYQXlhimvByJcSz585hq0QubQ=",
+        "owner": "nim-nix-pkgs",
+        "repo": "crowncalc",
+        "rev": "0772f70d608f1baa6670dafbecb9485c1d37e63e",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "crowncalc",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "noise": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "crowncalc-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "crowncalc-master",
+          "nixpkgs"
+        ],
+        "src-noise-v0_1_14": "src-noise-v0_1_14"
+      },
+      "locked": {
+        "dir": "v0_1_14",
+        "lastModified": 1647934377,
+        "narHash": "sha256-Z5Ex+Y3TQodtcmTFoGROe4e4R+ryRcuTaSqN4GySaV0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "noise",
+        "rev": "543eaf4d10bceb495c24adb61b845155ee9099e0",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_1_14",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "noise",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "crowncalc-master": "crowncalc-master",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "sdl2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "crowncalc-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "crowncalc-master",
+          "nixpkgs"
+        ],
+        "src-sdl2-v2_0_3": "src-sdl2-v2_0_3"
+      },
+      "locked": {
+        "dir": "v2_0_3",
+        "lastModified": 1647934966,
+        "narHash": "sha256-pNESFIJ7552mfZZBvaP/Zl0vEU3gZQ/nfmRrZ46k6kw=",
+        "owner": "nim-nix-pkgs",
+        "repo": "sdl2",
+        "rev": "0cf813e169e0fa7cb4576181e4ff43eadb2bdad4",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v2_0_3",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "sdl2",
+        "type": "github"
+      }
+    },
+    "src-crowncalc-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1644741838,
+        "narHash": "sha256-EG/IaNrSNbREWymgRQULC6F/CPsyp2JZNvTzpCqKVro=",
+        "owner": "RainbowAsteroids",
+        "repo": "crowncalc",
+        "rev": "a57445e83f6bd90ffe0f6bcd6185e71dc5cddbb2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "RainbowAsteroids",
+        "ref": "refs/heads/master",
+        "repo": "crowncalc",
+        "type": "github"
+      }
+    },
+    "src-noise-v0_1_14": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1600141522,
+        "narHash": "sha256-iZBov+AaAHctZ1nFbyR3lEuK14jaf8PUDcs7++GNzXI=",
+        "owner": "jangko",
+        "repo": "nim-noise",
+        "rev": "947f195c5796d3aca331de39d49dc073140748c1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jangko",
+        "ref": "refs/tags/v0.1.14",
+        "repo": "nim-noise",
+        "type": "github"
+      }
+    },
+    "src-sdl2-v2_0_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1617058617,
+        "narHash": "sha256-v8zqsafLMSAsJ1KOh4+1h22GGBe9D0Kkt/cN0s/Nvng=",
+        "owner": "nim-lang",
+        "repo": "sdl2",
+        "rev": "e084923c35e6f513240456d87b3cc9cfd2081e91",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-lang",
+        "ref": "refs/tags/v2.0.3",
+        "repo": "sdl2",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
