@@ -80,11 +80,11 @@
       },
       "locked": {
         "dir": "v2_0_3",
-        "lastModified": 1648081397,
-        "narHash": "sha256-z+PY8H8ZqBNjdIOfkL2w6r9xtgW+YLx7H7IkvUurCLw=",
+        "lastModified": 1648269973,
+        "narHash": "sha256-QkLO1aaGT9g2HP48meg81taJOlDY+fEoZuUqPFD4iro=",
         "owner": "nim-nix-pkgs",
         "repo": "sdl2",
-        "rev": "e4cd6f7520448ca6a5ce20266cf7434148e5a5e3",
+        "rev": "ed14972971937f552354ee22c9d2dd319d270eb5",
         "type": "github"
       },
       "original": {
@@ -98,11 +98,11 @@
     "src-crowncalc-master": {
       "flake": false,
       "locked": {
-        "lastModified": 1644741838,
-        "narHash": "sha256-EG/IaNrSNbREWymgRQULC6F/CPsyp2JZNvTzpCqKVro=",
+        "lastModified": 1648185248,
+        "narHash": "sha256-2RVEtO4RgQ3Ag58AWpsF2OTbCXNwpiGRbLp+Ukzg84o=",
         "owner": "RainbowAsteroids",
         "repo": "crowncalc",
-        "rev": "a57445e83f6bd90ffe0f6bcd6185e71dc5cddbb2",
+        "rev": "3435bc243dd11d8d1efa7a57d30505bc0479a565",
         "type": "github"
       },
       "original": {
