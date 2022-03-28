@@ -11,7 +11,6 @@
   inputs.src-crowncalc-master.ref   = "refs/heads/master";
   inputs.src-crowncalc-master.owner = "RainbowAsteroids";
   inputs.src-crowncalc-master.repo  = "crowncalc";
-  inputs.src-crowncalc-master.dir   = "";
   inputs.src-crowncalc-master.type  = "github";
   
   inputs."noise".owner = "nim-nix-pkgs";
