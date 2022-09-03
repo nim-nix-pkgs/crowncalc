@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1648105061,
-        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
+        "lastModified": 1662018438,
+        "narHash": "sha256-QtNtU6+LX3Wokxf0zlFwKTFOcn6TeDjKQZ+DA9OYtvM=",
         "owner": "riinr",
         "repo": "nim-flakes-lib",
-        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
+        "rev": "b1fe8340736e3a85d25c709ac3dfd82a55c03cbf",
         "type": "github"
       },
       "original": {
