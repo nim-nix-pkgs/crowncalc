@@ -14,7 +14,7 @@
   "heads": [
     {
       "name": "crowncalc",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "author": "Rainbow Asteroids",
       "desc": "Basic calculator in Nim",
       "license": "MIT",
